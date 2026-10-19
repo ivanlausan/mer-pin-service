@@ -1,0 +1,14 @@
+name = "mer-pin-service"
+main = "worker.js"
+compatibility_date = "2026-10-19"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "404-page"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mer-pin-data"
+database_id = "REEMPLAZA_CON_EL_ID_DE_TU_BASE_DE_DATOS"
+migrations_dir = "migrations"
