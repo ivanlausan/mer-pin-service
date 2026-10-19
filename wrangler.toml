@@ -10,5 +10,5 @@ not_found_handling = "404-page"
 [[d1_databases]]
 binding = "DB"
 database_name = "mer-pin-data"
-database_id = "REEMPLAZA_CON_EL_ID_DE_TU_BASE_DE_DATOS"
+database_id = "ca4b8b9c-7219-4d30-957f-87ea97e622e5"
 migrations_dir = "migrations"
